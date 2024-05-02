@@ -6,7 +6,26 @@
 
 
 /* Countdown */
-
+.main-countdown{
+    /* height: ; */
+    /* background-color: #45B096; */
+}
+.main-countdown h1{
+    display: flex;
+    justify-content: center;
+}
+.countdownimg{
+    display: flex;
+    justify-content: center;
+}
+.countdownimg img{
+    width: 60%;
+}
+@media screen AND (max-width:700px) {
+    .countdownimg img{
+        width: 100%;
+    } 
+}
 
 /* Services */
 .card{

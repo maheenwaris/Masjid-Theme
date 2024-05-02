@@ -25,15 +25,72 @@
 </head>
 <body>
 
-    <!-- Countdown -->
+    <style>
+        #countdown {
+            text-align: center;
+        }
+        #timer {
+            display: flex;
+            justify-content: center;
+        }
+        #timer div {
+            margin: 0 10px;
+        }
+        #timer span {
+            display: block;
+            font-size: 18px;
+        }
+    </style>
 
+    <!-- Countdown -->
+    <div>
+        <div class="countdown">
+            <div class="container-fluid">
+                <div class="row m-0 p-0">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 pt-3 pb-3 main-countdown">
+                        <h1>Welcome to Masjid-al-Aqsa</h1>
+                        <br>
+                        <div class="countdownimg"><img src="assets/images/demo.webp"></div>
+                        <br>
+                        <div>
+                            <div id="countdown">
+                                <h2>Countdown</h2>
+                                <div id="timer">
+                                    <div class="timer">
+                                        <span>Days</span>
+                                        <span id="days">0</span>
+                                    </div>
+                                    <div class="timer">
+                                        <span>Hours</span>
+                                        <span id="hours">0</span>
+                                    </div>
+                                    <div>
+                                        <span>Minutes</span>
+                                        <span id="minutes">0</span>
+                                    </div>
+                                    <div>
+                                        <span>Seconds</span>
+                                        <span id="seconds">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <br><br>
     <!-- Services -->
     <div>
         <div class="Services">
             <div class="container-fluid">
-                <center><h1><b style="color: #45B096;">Services</b></h1></center>
+                <center>
+                    <h1><b style="color: #45B096;">Services</b></h1>
+                </center>
                 <br>
                 <div class="row">
                     <div class="col-md-1"></div>
@@ -41,7 +98,10 @@
                         <div class="card">
                             <div class="card-content">
                                 <h2 class="">Funeral</h2>
-                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a officiis asperiores error consectetur, corrupti labore pariatur repudiandae expedita.</p>
+                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                                    ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a
+                                    officiis asperiores error consectetur, corrupti labore pariatur repudiandae
+                                    expedita.</p>
                                 <a href="" class="card-link">
                                     <p>Learn more</p>
                                     <i class="fa-solid fa-arrow-right mt-2 ms-1"></i>
@@ -53,7 +113,10 @@
                         <div class="card">
                             <div class="card-content">
                                 <h2 class="">Marriage</h2>
-                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a officiis asperiores error consectetur, corrupti labore pariatur repudiandae expedita.</p>
+                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                                    ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a
+                                    officiis asperiores error consectetur, corrupti labore pariatur repudiandae
+                                    expedita.</p>
                                 <a href="" class="card-link">
                                     <p>Learn more</p>
                                     <i class="fa-solid fa-arrow-right mt-2 ms-1"></i>
@@ -63,14 +126,17 @@
                     </div>
                     <div class="col-md-1"></div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-5  mb-4">
                         <div class="card">
                             <div class="card-content">
                                 <h2 class="">Family counselling</h2>
-                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a officiis asperiores error consectetur, corrupti labore pariatur repudiandae expedita.</p>
+                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                                    ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a
+                                    officiis asperiores error consectetur, corrupti labore pariatur repudiandae
+                                    expedita.</p>
                                 <a href="" class="card-link">
                                     <p>Learn more</p>
                                     <i class="fa-solid fa-arrow-right mt-2 ms-1"></i>
@@ -82,7 +148,10 @@
                         <div class="card">
                             <div class="card-content">
                                 <h2 class="">Free of Charge Visits & Tours</h2>
-                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a officiis asperiores error consectetur, corrupti labore pariatur repudiandae expedita.</p>
+                                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                                    ullam tempora ex atque aperiam illum distinctio nobis quae explicabo dicta a
+                                    officiis asperiores error consectetur, corrupti labore pariatur repudiandae
+                                    expedita.</p>
                                 <a href="" class="card-link">
                                     <p>Learn more</p>
                                     <i class="fa-solid fa-arrow-right mt-2 ms-1"></i>
@@ -147,6 +216,8 @@
             </div>
         </div>
     </div>
+
+    <script src="assets/js/countdown.js"></script>
 
 </body>
 </html>
