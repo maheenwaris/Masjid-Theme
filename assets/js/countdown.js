@@ -1,4 +1,3 @@
-
 // Set the target date and time for the countdown
 const targetDate = new Date("May 15, 2024 12:00:00").getTime();
 

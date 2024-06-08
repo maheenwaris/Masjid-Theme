@@ -4,12 +4,28 @@
     box-sizing: border-box;
 }
 
+/* Header */
+.head{
+    width: 100%;
+    height: 30vh;
+    background-color: #45B096;
+}
+.head1 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    text-decoration: none;
+    color: black;
+}
+.head1 a p{
+    font-weight: 600;
+    letter-spacing: .1cm;
+}
+
 
 /* Countdown */
-.main-countdown{
-    /* height: ; */
-    /* background-color: #45B096; */
-}
 .main-countdown h1{
     display: flex;
     justify-content: center;
@@ -20,6 +36,20 @@
 }
 .countdownimg img{
     width: 60%;
+}
+#countdown {
+    text-align: center;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+}
+#timer div {
+    margin: 0 10px;
+}
+#timer span {
+    display: block;
+    font-size: 18px;
 }
 @media screen AND (max-width:700px) {
     .countdownimg img{
