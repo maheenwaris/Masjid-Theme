@@ -1,0 +1,32 @@
+<footer class="bg-primary text-gray-800 py-8">
+    <div class="container mx-auto flex flex-wrap justify-between items-center">
+        <div class="">
+            <h1 class="text-lg font-semibold">Masjid Al-Aqsa Bolton</h1>
+            <p class="max-w-96">
+                {{ .Site.Params.footerDescription }}
+            </p>
+        </div>
+        <div class="flex-grow flex justify-center space-x-10">
+            <div>
+                <h2 class="font-semibold mb-2">Links</h2>
+                <ul class="space-y-1">
+                    {{ range .Site.Params.footerLinks }}
+                    <li><a href="{{ .url }}" class="hover:underline">{{ .name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold mb-2">Contact</h2>
+                <ul class="space-y-1">
+                    <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1.704-9.292l-3-3A1 1 0 007 7.707V11a1 1 0 001 1h3.293a1 1 0 00.707-1.707z" clip-rule="evenodd" /></svg>{{ .Site.Params.address}}</li>
+                    <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm2 0h12v10H4V5zm7 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" /></svg>{{ .Site.Params.phone }}</li>
+                    <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2.05 4.555A2 2 0 014 4h12a2 2 0 011.95 1.555l-7.95 4.1-7.95-4.1zM2 7.344v6.733a2 2 0 001 1.723v-7.223l-1-1.232zm15 0v7.223a2 2 0 001-1.723V7.344l-1 1.233zM16.954 6.41L10 10.639 3.046 6.41A2 2 0 014 6h12a2 2 0 01.954.41z" /></svg>{{ .Site.Params.email }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-8">
+        <p>&copy; 2024 {{ .Site.Params.copyright }}. All rights reserved.</p>
+        <p class="text-slate500">designed & developed by <a href="https://hepton.uk">Hepton</a>.</p>
+    </div>
+</footer>

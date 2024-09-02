@@ -1,0 +1,48 @@
+baseURL = "https://aqsa.hepton.uk"
+languageCode = 'en-us'
+title = 'Masjid Al-Aqsa Bolton'
+
+[menu]
+  [[menu.main]]
+    name = "Prayer times"
+    url = "/prayer-times"
+    weight = 1
+
+  [[menu.main]]
+    name = "Services"
+    url = "/services"
+    weight = 2
+
+  [[menu.main]]
+    name = "Quran"
+    url = "/quran"
+    weight = 3
+
+  [[menu.main]]
+    name = "Donations"
+    url = "/donations"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact us"
+    url = "/contact-us"
+    weight = 5
+
+[params]
+logo = "/img/logo/golden-logo.png"
+kalma = "/img/main/kalma.png"
+welcomeTitle = "Welcome to masjid Al-Aqsa Bolton"
+welcomeMessage = "Islam is the fastest-growing religion in United Kingdom. Like other cities of United Kingdom, a large number of Muslim individuals are living in Bolton. Mosques in Bolton are the glorious example of the unity of Muslims who practicing different faiths of Islam but stay together as a Muslim. The majority of Muslims come to Masjid al Aqsa in Bolton, do believe in the Barelvi faith of Islam. Muslims of other branches of Islam like Sunni Muslims, Deobandi Muslims, and Ahl-e-Hadees Muslims also come to Masjid al Aqsa and perform their religious obligations."
+
+
+footerDescription = "Masjid Al-Aqsa Bolton is a registered charity with the Charity Commision UK. Chatiry number: 1109233."
+copyright = "Al-Aqsa Mosque"
+footerLinks = [ 
+  {name = "Our services", url = "#services"},
+  {name = "Prayer times", url = "/prayer-times"},
+  {name = "Qibla finder", url = "/qibla-finder"},
+  {name = "Socials", url = "linktree.aqsa.com"},
+]
+address = "Masjid Al Aqsa, Gilnow Rd, Bolton BL1 4LL"
+phone = "012 047 01198"
+email = "info@alqasamasque.uk"
