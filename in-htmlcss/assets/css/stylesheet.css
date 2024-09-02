@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+.head{
+    width: 100%;
+    height: 30vh;
+    background-color: #45B096;
+}
+.head1 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    text-decoration: none;
+    color: black;
+}
+.head1 a p{
+    font-weight: 600;
+    letter-spacing: .1cm;
+}
+
+
+/* Countdown */
+.main-countdown h1{
+    display: flex;
+    justify-content: center;
+}
+.countdownimg{
+    display: flex;
+    justify-content: center;
+}
+.countdownimg img{
+    width: 60%;
+}
+#countdown {
+    text-align: center;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+}
+#timer div {
+    margin: 0 10px;
+}
+#timer span {
+    display: block;
+    font-size: 18px;
+}
+@media screen AND (max-width:700px) {
+    .countdownimg img{
+        width: 100%;
+    } 
+}
+
+/* Services */
+.card{
+    height: 100%;
+    border: 8px double #45B096;
+    border-radius: 5px;
+}
+.card-content{
+    margin: 3%;
+}
+.card-content h2 {
+    color: #45B096;
+    font-weight: 600;
+}
+.content {
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+    line-height:normal;
+    height: 60%;
+}
+.card-link{
+    display: flex;
+    text-decoration: none;
+    color: #45B096;
+    letter-spacing: .1cm;
+}
+.card-link:hover{
+    color: #45B096;
+}
+
+
+/* footer */
+.footer{
+    background-color: #45B096;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.foot1 a{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    text-decoration: none;
+    color: black;
+}
+.foot1 a p{
+    font-weight: 600;
+    letter-spacing: .1cm;
+}
+.foot2 h3{
+    font-weight: 700;
+    color: black;
+}
+.foot2 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.foot2 a p{
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.foot2 a i{
+    color: black;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+@media screen AND (max-width:600px) {
+    .footer{
+        padding-bottom: 3%;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+    }
+    .foot1 a {
+        width: 60%;
+    }
+    .foot2 a p{
+        padding: 0%;
+        margin: 0%;
+    }
+}
